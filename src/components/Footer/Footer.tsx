@@ -5,7 +5,10 @@ export function Footer() {
     <footer className="flex flex-col items-center">
       <p className="text-sm italic">
         Built by{' '}
-        <Link className="text-blue-600" href="https://github.com/jimbopulos">
+        <Link
+          className="text-blue-600 hover:text-blue-400"
+          href="https://github.com/jimbopulos"
+        >
           James Galantino
         </Link>{' '}
         ©2024
