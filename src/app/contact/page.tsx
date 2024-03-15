@@ -10,7 +10,7 @@ export default function Contact() {
       <Navbar />
       <div className="h-full p-12">
         <h1 className="text-4xl text-bold">How to Reach Me</h1>
-        <ul className="mt-8 items-center">
+        <ul className="mt-8 items-center text-lg">
           <li>
             <Link
               href="mailto:james.mgalantino@gmail.com"

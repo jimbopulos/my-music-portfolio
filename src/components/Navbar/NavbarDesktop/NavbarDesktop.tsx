@@ -9,10 +9,10 @@ export function NavbarDesktop() {
 
   return (
     <span className="flex flex-row items-center">
-      <div className="left-0 absolute text-2xl p-6 shadow-lg w-full z-0">
+      <div className="left-0 absolute text-2xl font-medium p-6 shadow-lg w-full z-0">
         <Link href="/">James Galantino</Link>
       </div>
-      <nav className="flex items-center p-4 z-50">
+      <nav className="flex items-center p-4 z-50 text-lg">
         {navItems.map(({ id, title, href }) => {
           const isActive = currentPath === href;
 
@@ -22,8 +22,8 @@ export function NavbarDesktop() {
               href={href}
               className={
                 isActive
-                  ? 'px-12 transition-all duration-300 ease-in-out text-lg'
-                  : 'px-12 text-zinc-500 transition-all duration-300 ease-in-out hover:text-black hover:text-lg'
+                  ? 'px-12 transition-all duration-300 ease-in-out text-xl'
+                  : 'px-12 text-zinc-500 transition-all duration-300 ease-in-out hover:text-black hover:text-xl'
               }
             >
               {title}

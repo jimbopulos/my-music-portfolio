@@ -27,7 +27,7 @@ export default function Dashboard() {
             projects.
           </p>
           <p className="mt-8">Here is some of my work:</p>
-          <ul className="mt-2">
+          <ul className="mt-3">
             <li>
               <Link
                 href="https://open.spotify.com/artist/6gIewgM9kUlx1hEvJKt9b8?si=a8RC_Fp5TLOfNpTnEAq7Ow"
