@@ -8,9 +8,9 @@ export default function Contact() {
   return (
     <main className="flex flex-col min-h-screen items-center">
       <Navbar />
-      <div className="p-12 my-6 h-full text-center animate-fadeInUp">
-        <h1 className="text-2xl font-medium">Contact Me</h1>
-        <ul className="mt-14 items-center text-center text-lg">
+      <div className="p-12 lg:my-6 mt-12 h-full text-center animate-fadeInUp">
+        <h1 className="lg:text-2xl text-xl font-medium">Contact Me</h1>
+        <ul className="mt-14 items-center text-center lg:text-lg">
           <li>
             <Link
               href="mailto:james.mgalantino@gmail.com"

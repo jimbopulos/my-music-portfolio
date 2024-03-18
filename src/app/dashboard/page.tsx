@@ -8,7 +8,7 @@ export default function Dashboard() {
   return (
     <main className="flex flex-col items-center">
       <Navbar />
-      <div className="flex flex-col p-12 my-6 items-center">
+      <div className="flex flex-col p-12 lg:my-6 mt-12 items-center lg:text-lg">
         <Image
           src="/jimbo-1.jpg"
           alt="JMG-profile-picture"
@@ -22,10 +22,7 @@ export default function Dashboard() {
             <p className="mt-12">Hi, and welcome!</p>
             <p className="mt-4">
               I&#39;m a musician with several years of teaching experience,
-              composition writing, recording, and playing live. I have worked as
-              a piano instructor and director at School of Rock in Port
-              Jefferson, NY and as a recording artist and audio engineer on
-              multiple projects.
+              composition writing, recording, and playing live.
             </p>
             <p className="mt-4">
               I&#39;ve worked as a piano instructor and director at School of

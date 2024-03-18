@@ -20,7 +20,7 @@ export function NavbarDesktop() {
             <Link
               key={id}
               href={href}
-              className={`px-12 transition-all duration-300 ease-in-out ${
+              className={`xl:px-12 px-8 transition-all duration-300 ease-in-out ${
                 isActive
                   ? ' text-xl'
                   : 'text-zinc-500 hover:text-black hover:text-xl'

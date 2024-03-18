@@ -12,25 +12,25 @@ export function NavbarMobile() {
 
   return (
     <div>
-      <nav className="lg:hidden flex flex-col absolute w-full h-[100dvh] left-0 font-medium p-2.5">
+      <nav className="lg:hidden flex flex-col w-full absolute left-0 font-medium p-2.5">
         <button
           onClick={handleClick}
-          className={`flex flex-col absolute justify-center items-center p-2.5 transition-all duration-300 ease-out bg-white rounded-md ${
-            !isOpen && 'shadow-md shadow-black'
+          className={`flex flex-col absolute justify-center items-start right-0 mr-2.5 p-2.5 transition-all duration-300 ease-out bg-white rounded-sm border ${
+            !isOpen ? 'shadow-md shadow-black border-black' : 'border-white'
           }`}
         >
           <span
-            className={`block h-1 w-7 bg-black transition-all duration-300 ease-out rounded-full ${
+            className={`block h-1 w-7 bg-black transition-all duration-300 ease-out rounded-md ${
               isOpen ? 'rotate-45 translate-y-2' : '-translate-y-0.5'
             }`}
           ></span>
           <span
-            className={`block h-1 w-7 bg-black transition-all duration-300 ease-out rounded-full my-1 ${
+            className={`block h-1 w-7 bg-black transition-all duration-300 ease-out rounded-md my-1 ${
               isOpen ? 'opacity-0' : 'opacity-100'
             }`}
           ></span>
           <span
-            className={`block h-1 w-7 bg-black transition-all duration-300 ease-out rounded-full ${
+            className={`block h-1 w-7 bg-black transition-all duration-300 ease-out rounded-md ${
               isOpen ? '-rotate-45 -translate-y-2' : 'translate-y-0.5'
             }`}
           ></span>
@@ -59,7 +59,7 @@ export function NavbarMobile() {
             })}
           </div>
         ) : (
-          <div className="text-center text-xl md:text-2xl">
+          <div className="text-center text-xl md:text-2xl mt-2">
             <Link href="/">James Galantino</Link>
           </div>
         )}
