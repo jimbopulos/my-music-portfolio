@@ -8,9 +8,9 @@ export default function Contact() {
   return (
     <main className="flex flex-col min-h-screen items-center">
       <Navbar />
-      <div className="h-full p-12">
-        <h1 className="text-4xl text-bold">How to Reach Me</h1>
-        <ul className="mt-8 items-center text-lg">
+      <div className="h-full p-20">
+        <h1 className="text-4xl font-medium">How to Reach Me</h1>
+        <ul className="mt-8 items-center text-center text-lg">
           <li>
             <Link
               href="mailto:james.mgalantino@gmail.com"
@@ -28,7 +28,7 @@ export default function Contact() {
               </span>
             </Link>
           </li>
-          <li className="mt-8">
+          <li className="mt-6">
             <Link
               href="https://www.instagram.com/jimmi.mg/"
               className="hover:text-zinc-500"
