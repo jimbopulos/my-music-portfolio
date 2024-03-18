@@ -4,12 +4,12 @@ export default function Lessons() {
   return (
     <main className="flex flex-col min-h-screen items-center">
       <Navbar />
-      <div className="h-full p-12 text-center">
-        <p className="mt-6 text-2xl">
+      <div className="p-12 my-6 text-center">
+        <p className="text-2xl animate-fadeInUp">
           I offer private music lessons at your residence, or online via
           FaceTime, Zoom, etc.
         </p>
-        <section className="mt-14">
+        <section className="mt-14 animate-fadeInUp">
           <h2 className="text-xl font-medium">Instruments and Pedagogy</h2>
           <div className="text-lg mt-3">
             <h3 className="mt-2">Piano - Beginner to Advanced</h3>
@@ -19,7 +19,7 @@ export default function Lessons() {
             <h3 className="mt-2">Music Theory - Beginner to Advanced</h3>
           </div>
         </section>
-        <section className="mt-14">
+        <section className="mt-14 animate-fadeInUp">
           <h2 className="text-xl font-medium">Rates</h2>
           <div className="text-lg mt-3">
             <h3 className="mt-2">30 minutes - $30</h3>
@@ -27,7 +27,7 @@ export default function Lessons() {
             <h3 className="mt-2">60 minutes - $50</h3>
           </div>
         </section>
-        <section className="mt-14">
+        <section className="mt-14 animate-fadeInUp">
           <h2 className="text-xl font-medium">Booking & Cancellation Policy</h2>
           <div className="text-lg mt-3">
             <h3 className="mt-2">

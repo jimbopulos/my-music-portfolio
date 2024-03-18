@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="flex flex-col items-center p-2 bg-black text-white shadow-lg w-full">
-      <section className="mb-6 flex flex-row mt-8 items-center text-center text-lg">
+    <footer className="flex flex-col items-center p-2 bg-black text-white shadow-lg w-full animate-fadeInUp">
+      <section className="mb-3 flex flex-row mt-4 items-center text-center text-lg">
         <div>
           <Link
             href="mailto:james.mgalantino@gmail.com"
