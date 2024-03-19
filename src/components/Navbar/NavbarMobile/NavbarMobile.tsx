@@ -12,11 +12,11 @@ export function NavbarMobile() {
 
   return (
     <div>
-      <nav className="lg:hidden flex flex-col w-full absolute left-0 font-medium p-2.5">
+      <nav className="lg:hidden flex flex-col w-full fixed left-0 bg-white font-medium shadow-lg p-2.5">
         <button
           onClick={handleClick}
-          className={`flex flex-col absolute justify-center items-start right-0 mr-2.5 p-2.5 transition-all duration-300 ease-out bg-white rounded-sm border ${
-            !isOpen ? 'shadow-md shadow-black border-black' : 'border-white'
+          className={`flex flex-col absolute justify-center items-start right-0 mr-2.5 p-2 transition-all duration-300 ease-out bg-white rounded-sm border ${
+            !isOpen ? 'shadow-md shadow-black border-black' : 'border-white m-2'
           }`}
         >
           <span
@@ -37,8 +37,8 @@ export function NavbarMobile() {
         </button>
 
         {isOpen ? (
-          <div className="flex flex-col w-full h-[100dvh] justify-evenly items-center bg-white rounded-sm shadow-md shadow-black transition-all duration-300 ease-in-out">
-            <div className="text-center text-3xl">
+          <div className="flex flex-col w-full h-dvh justify-evenly items-center bg-white rounded-sm shadow-lg shadow-black transition-all duration-300 ease-in-out">
+            <div className="text-center text-3xl font-semibold">
               <Link href="/">James Galantino</Link>
             </div>
 
@@ -50,7 +50,9 @@ export function NavbarMobile() {
                   key={id}
                   href={href}
                   className={`transition-all animate-fadeInUp min-w-fit text-center text-2xl ${
-                    isActive ? 'text-black text-3xl' : 'text-zinc-500'
+                    isActive
+                      ? 'bg-black shadow-md shadow-zinc-500 text-white p-2.5 w-3/5 rounded-md text-3xl'
+                      : 'text-zinc-500'
                   }`}
                 >
                   {title}
@@ -59,7 +61,7 @@ export function NavbarMobile() {
             })}
           </div>
         ) : (
-          <div className="text-center text-xl md:text-2xl mt-2">
+          <div className="text-center text-xl md:text-2xl p-2">
             <Link href="/">James Galantino</Link>
           </div>
         )}

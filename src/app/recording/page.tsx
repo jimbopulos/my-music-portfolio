@@ -5,7 +5,7 @@ export default function Recording() {
   return (
     <main className="flex flex-col min-h-screen items-center">
       <Navbar />
-      <div className="flex flex-col p-12 my-6 items-center text-center">
+      <div className="flex flex-col mb-10 lg:mt-16 md:mt-28 mt-24 px-6 items-center text-center">
         <Image
           src="/jmg_piano.jpg"
           alt="JMG-profile-picture"
@@ -15,11 +15,11 @@ export default function Recording() {
         />
 
         <section className="animate-fadeInUp">
-          <p className="mt-12 text-2xl">Need a session player?</p>
-          <h2 className="text-xl mt-8 font-medium">
+          <p className="mt-12 lg:text-2xl text-xl">Need a session player?</p>
+          <h2 className="lg:text-xl text-lg mt-8 font-medium">
             Available for recording on your song(s):
           </h2>
-          <div className="text-lg mt-3">
+          <div className="lg:text-lg mt-3">
             <h3 className="mt-2">Piano/Keys</h3>
             <h3 className="mt-2">Drums</h3>
           </div>

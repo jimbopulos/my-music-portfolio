@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <main className="flex flex-col min-h-screen items-center">
       <Navbar />
-      <div className="p-12 lg:my-6 mt-12 h-full text-center animate-fadeInUp">
+      <div className="mb-10 lg:mt-16 md:mt-28 mt-28 px-4 h-full text-center animate-fadeInUp">
         <h1 className="lg:text-2xl text-xl font-medium">Contact Me</h1>
         <ul className="mt-14 items-center text-center lg:text-lg">
           <li>
