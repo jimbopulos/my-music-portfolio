@@ -22,7 +22,7 @@ export default function Dashboard() {
             <p className="mt-8">Hi, and welcome!</p>
             <p className="mt-4">
               I&#39;m a musician with a BS in Music & Recording, as well as
-              several years of teaching experience, composition writing,
+              several years of experience in teaching, writing composition,
               recording, and playing live.
             </p>
             <p className="mt-4">
