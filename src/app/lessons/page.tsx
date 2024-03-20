@@ -9,7 +9,7 @@ export default function Lessons() {
           I offer private music lessons at your residence, or online via
           FaceTime, Zoom, etc.
         </p>
-        <section className="mt-14 animate-fadeInUp">
+        <section className="mt-10 animate-fadeInUp">
           <h2 className="lg:text-xl text-lg font-medium">
             Instruments & Pedagogy
           </h2>
@@ -21,7 +21,7 @@ export default function Lessons() {
             <h3 className="mt-2">Music Theory - Beginner to Advanced</h3>
           </div>
         </section>
-        <section className="mt-14 animate-fadeInUp">
+        <section className="mt-10 animate-fadeInUp">
           <h2 className="lg:text-xl text-lg font-medium">Rates</h2>
           <div className="lg:text-lg mt-3">
             <h3 className="mt-2">30 minutes - $30</h3>
@@ -29,7 +29,7 @@ export default function Lessons() {
             <h3 className="mt-2">60 minutes - $50</h3>
           </div>
         </section>
-        <section className="mt-14 animate-fadeInUp">
+        <section className="mt-10 animate-fadeInUp">
           <h2 className="lg:text-xl text-lg font-medium">
             Booking & Cancellation Policy
           </h2>

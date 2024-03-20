@@ -15,7 +15,7 @@ export function NavbarMobile() {
       <nav className="lg:hidden flex flex-col w-full fixed left-0 bg-white font-medium shadow-lg p-2.5">
         <button
           onClick={handleClick}
-          className={`flex flex-col absolute justify-center items-start right-0 mr-3 p-2 transition-all duration-300 ease-out bg-white rounded-sm border ${
+          className={`flex flex-col absolute justify-center items-start right-0 mt-1 mr-3 p-2 transition-all duration-300 ease-out bg-white rounded-sm border ${
             !isOpen ? 'shadow-md shadow-black border-black' : 'border-white m-2'
           }`}
         >
@@ -37,8 +37,8 @@ export function NavbarMobile() {
         </button>
 
         {isOpen ? (
-          <div className="flex flex-col w-full h-dvh justify-evenly items-center bg-white rounded-sm shadow-lg shadow-black border border-black transition-all duration-50 ease-in-out">
-            <div className="text-center text-3xl font-semibold">
+          <div className="flex flex-col min-w-fit h-dvh justify-evenly items-center text-center bg-white rounded-sm shadow-lg shadow-black border border-black transition-all duration-50 ease-in-out">
+            <div className="text-3xl font-semibold">
               <Link href="/">James Galantino</Link>
             </div>
 
@@ -49,9 +49,9 @@ export function NavbarMobile() {
                 <Link
                   key={id}
                   href={href}
-                  className={`transition-all animate-fadeInUp min-w-fit text-center text-2xl ${
+                  className={`transition-all animate-fadeInUp text-2xl md:w-1/3 w-3/5 p-2.5 ${
                     isActive
-                      ? 'bg-black shadow-md shadow-zinc-500 text-white p-2.5 w-3/5 rounded-md text-3xl'
+                      ? 'bg-black shadow-md shadow-zinc-500 text-white rounded-md text-3xl'
                       : 'text-zinc-500'
                   }`}
                 >

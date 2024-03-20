@@ -5,29 +5,26 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="flex flex-col items-center p-2 bg-black text-white shadow-lg w-full animate-fadeInUp">
+    <footer className="flex flex-col items-center p-3 h-full bg-black text-white shadow-lg w-full">
       <section className="mb-3 flex flex-row mt-4 items-center text-center text-lg">
-        <div>
-          <Link
-            href="mailto:james.mgalantino@gmail.com"
-            className="hover:text-zinc-500"
-          >
-            <FontAwesomeIcon
-              width={25}
-              height={25}
-              icon={faEnvelope}
-              className="mr-6"
-            />
-          </Link>
-        </div>
-        <div>
-          <Link
-            href="https://www.instagram.com/jimmi.mg/"
-            className="hover:text-zinc-500"
-          >
-            <FontAwesomeIcon width={25} height={25} icon={faInstagram} />
-          </Link>
-        </div>
+        <Link
+          href="mailto:james.mgalantino@gmail.com"
+          className="hover:text-zinc-500"
+        >
+          <FontAwesomeIcon
+            width={25}
+            height={25}
+            icon={faEnvelope}
+            className="mr-6"
+          />
+        </Link>
+
+        <Link
+          href="https://www.instagram.com/jimmi.mg/"
+          className="hover:text-zinc-500"
+        >
+          <FontAwesomeIcon width={25} height={25} icon={faInstagram} />
+        </Link>
       </section>
       <p className="text-sm italic">
         Built by{' '}
