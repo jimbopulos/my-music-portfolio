@@ -14,6 +14,7 @@ export default function Dashboard() {
           alt="JMG-profile-picture"
           width={350}
           height={350}
+          priority={true}
           className="lg: shadow-lg shadow-zinc-500 rounded-md"
         />
 
