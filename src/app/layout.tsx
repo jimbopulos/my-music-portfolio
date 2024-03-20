@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'James Galantino | Musician Portfolio',
   description: 'Welcome to my personal portfolio website!',
   icons: {
-    icon: '/icon.png',
+    icon: '/icon.svg',
   },
 };
 
