@@ -7,6 +7,9 @@ const mont = Montserrat({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'James Galantino | Musician Portfolio',
   description: 'Welcome to my personal portfolio website!',
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
