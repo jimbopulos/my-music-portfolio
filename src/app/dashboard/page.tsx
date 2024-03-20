@@ -61,7 +61,7 @@ export default function Dashboard() {
                     icon={faSpotify}
                     className="mr-2"
                   />
-                  Electrodes - The Paramos
+                  The Paramos - Electrodes
                 </span>
               </Link>
             </li>
@@ -77,7 +77,7 @@ export default function Dashboard() {
                     icon={faSpotify}
                     className="mr-2"
                   />
-                  Millennium Items - Puji
+                  Puji - Millennium Items
                 </span>
               </Link>
             </li>
