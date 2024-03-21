@@ -9,14 +9,19 @@ export default function Dashboard() {
     <main className="flex flex-col min-h-screen items-center">
       <Navbar />
       <div className="flex flex-col mb-10 lg:mt-16 md:mt-28 mt-24 px-6 items-center lg:text-lg">
-        <Image
-          src="/jimbo-1.jpg"
-          alt="JMG-profile-picture"
-          width={350}
-          height={350}
-          priority={true}
-          className="lg: shadow-lg shadow-zinc-500 rounded-md"
-        />
+        <div>
+          <Image
+            src="/jimbo-1.jpg"
+            alt="JMG-profile-picture"
+            width={350}
+            height={350}
+            priority={true}
+            className="lg: shadow-lg shadow-zinc-500 rounded-md"
+          />
+          <p className="text-sm text-zinc-700 mt-2.5 italic">
+            Photo by Jonny Scala
+          </p>
+        </div>
 
         <section className="text-center items-center lg:w-1/2 md:w-3/5 animate-fadeInUp">
           <div className="animate-fadeInUp">
