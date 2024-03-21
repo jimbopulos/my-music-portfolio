@@ -15,7 +15,7 @@ export default function Recording() {
             className="shadow-lg shadow-zinc-500 rounded-md"
           />
           <p className="text-sm text-zinc-700 mt-2.5 italic">
-            Photo by Jon Scala
+            Photo by Jonny Scala
           </p>
         </div>
 
