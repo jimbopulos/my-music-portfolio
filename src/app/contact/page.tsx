@@ -54,6 +54,7 @@ export default function Contact() {
           alt="JMG-drums"
           width={350}
           height={350}
+          priority={true}
           className="shadow-lg shadow-zinc-500 rounded-md"
         />
         <p className="text-sm text-zinc-700 mt-2.5 italic">
