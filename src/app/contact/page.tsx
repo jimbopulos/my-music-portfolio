@@ -58,7 +58,13 @@ export default function Contact() {
         className="shadow-lg shadow-zinc-500 rounded-md w-auto animate-fadeInRight"
       />
       <p className="text-sm text-zinc-700 mt-2.5 italic animate-fadeInRight">
-        Photo by Jonny Scala
+        Photo by{' '}
+        <Link
+          href="mailto:jscala.project@gmail.com"
+          className="hover:text-black"
+        >
+          Jonny Scala
+        </Link>
       </p>
     </div>
   );

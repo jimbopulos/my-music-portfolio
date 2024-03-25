@@ -40,7 +40,7 @@ export function NavbarMobile() {
 
       {isOpen ? (
         <div className="flex flex-col min-w-fit h-dvh justify-evenly items-center text-center bg-white rounded-sm shadow-lg shadow-black border border-black transition-all duration-200 ease-in-out">
-          <div className="text-3xl font-semibold">
+          <div className="text-3xl font-semibold animate-fadeIn">
             <Link href="/">James Galantino</Link>
           </div>
 
