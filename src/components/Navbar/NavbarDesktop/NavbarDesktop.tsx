@@ -9,7 +9,7 @@ export function NavbarDesktop() {
 
   return (
     <span className="hidden lg:flex flex-row items-center">
-      <div className="left-0 absolute text-2xl font-medium p-6 shadow-lg w-full z-0">
+      <div className="left-0 absolute text-2xl font-medium p-6 shadow-lg w-full z-0 animate-fadeIn">
         <Link href="/">James Galantino</Link>
       </div>
       <nav className="flex items-center p-4 z-50 text-lg">
@@ -20,7 +20,7 @@ export function NavbarDesktop() {
             <Link
               key={id}
               href={href}
-              className={`xl:px-12 px-6 transition-all duration-300 ease-in-out ${
+              className={`xl:px-12 px-6 transition-all duration-300 ease-in-out animate-fadeIn ${
                 isActive
                   ? ' text-xl'
                   : 'text-zinc-500 hover:text-black hover:text-xl'

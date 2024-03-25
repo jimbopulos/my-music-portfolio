@@ -6,22 +6,22 @@ import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 export default function Dashboard() {
   return (
     <div className="flex flex-col mb-10 lg:mt-16 md:mt-28 mt-24 px-6 items-center lg:text-lg">
-      <div>
+      <div className="text-left">
         <Image
           src="/jimbo-1.jpg"
           alt="JMG-profile-picture"
           width={350}
           height={350}
           priority={true}
-          className="shadow-lg shadow-zinc-500 rounded-md w-auto"
+          className="shadow-lg shadow-zinc-500 rounded-md w-auto animate-fadeInRight"
         />
-        <p className="text-sm text-zinc-700 mt-2.5 italic">
+        <p className="text-sm text-zinc-700 mt-2.5 italic animate-fadeInRight">
           Photo by Jonny Scala
         </p>
       </div>
 
-      <section className="text-center items-center lg:w-1/2 md:w-3/5 animate-fadeInUp">
-        <div className="animate-fadeInUp">
+      <section className="text-center items-center lg:w-1/2 md:w-3/5 animate-fadeInRight">
+        <div className="animate-fadeInRight">
           <p className="mt-8">Hi, and welcome!</p>
           <p className="mt-4">
             I&#39;m a musician with a BS in Music & Recording, as well as

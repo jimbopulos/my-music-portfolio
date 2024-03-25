@@ -6,7 +6,7 @@ import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="flex flex-col items-center p-5 bg-black text-white shadow-lg w-full">
-      <section className="mb-3 flex flex-row mt-4 items-center text-center text-lg">
+      <section className="mb-3 flex flex-row mt-4 items-center text-center text-lg animate-fadeInUp">
         <Link
           href="mailto:james.mgalantino@gmail.com"
           className="hover:text-zinc-500"
@@ -26,7 +26,7 @@ export function Footer() {
           <FontAwesomeIcon width={25} height={25} icon={faInstagram} />
         </Link>
       </section>
-      <p className="text-sm italic">
+      <p className="text-sm italic animate-fadeInUp">
         Built by{' '}
         <Link
           className="text-blue-600 hover:text-blue-400"

@@ -10,14 +10,14 @@ export default function Recording() {
           width={350}
           height={350}
           priority={true}
-          className="shadow-lg shadow-zinc-500 rounded-md w-auto"
+          className="shadow-lg shadow-zinc-500 rounded-md w-auto animate-fadeInRight"
         />
-        <p className="text-sm text-zinc-700 mt-2.5 italic">
+        <p className="text-sm text-zinc-700 mt-2.5 italic animate-fadeInRight">
           Photo by Jonny Scala
         </p>
       </div>
 
-      <section className="animate-fadeInUp text-center">
+      <section className="animate-fadeInRight text-center">
         <p className="mt-12 lg:text-2xl text-xl">Need a session player?</p>
         <h2 className="lg:text-xl text-lg mt-8 font-medium">
           Available for recording on your song(s):
