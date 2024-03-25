@@ -1,5 +1,3 @@
-import { Navbar, Footer } from '@/components';
-
 export default function Lessons() {
   return (
     <div className="mb-10 lg:mt-16 md:mt-28 mt-28 px-4 md:w-3/4 text-center">
