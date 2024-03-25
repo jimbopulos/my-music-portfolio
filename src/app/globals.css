@@ -24,10 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  @apply h-full;
+  /* @apply h-full; */
 }
 
-html {
+/* html {
   @apply h-full;
 }
 
@@ -37,7 +37,7 @@ div#__next {
 
 main {
   @apply h-full;
-}
+} */
 
 @layer utilities {
   .text-balance {

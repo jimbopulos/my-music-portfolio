@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="flex flex-col items-center p-5 h-full bg-black text-white shadow-lg w-full">
+    <footer className="flex flex-col items-center p-5 bg-black text-white shadow-lg w-full">
       <section className="mb-3 flex flex-row mt-4 items-center text-center text-lg">
         <Link
           href="mailto:james.mgalantino@gmail.com"
