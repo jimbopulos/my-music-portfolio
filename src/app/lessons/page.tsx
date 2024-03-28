@@ -1,6 +1,6 @@
 export default function Lessons() {
   return (
-    <div className="mb-10 lg:mt-16 md:mt-28 mt-28 px-4 md:w-3/4 text-center">
+    <div className="mb-12 lg:mt-16 md:mt-28 mt-28 px-4 md:w-3/4 text-center">
       <p className="lg:text-2xl text-xl animate-fadeInRight">
         I offer private music lessons at your residence, or online via FaceTime,
         Zoom, etc.
