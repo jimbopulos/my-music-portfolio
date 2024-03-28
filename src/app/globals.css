@@ -24,19 +24,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  @apply h-full;
-}
-
-html {
-  @apply h-full;
-}
-
-div#__next {
-  @apply h-full;
-}
-
-main {
-  @apply h-full;
 }
 
 @layer utilities {

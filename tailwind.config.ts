@@ -10,23 +10,43 @@ const config: Config = {
     // screens: {
     //   xs: '320px',
     // },
-    // extend: {
-    //   animation: {
-    //     fadeInUp: 'fadeInUp 1s ease-in-out',
-    //   },
-    //   keyframes: {
-    //     fadeInUp: {
-    //       '0%': {
-    //         transform: 'translateY(100%)',
-    //         opacity: '0',
-    //       },
-    //       '100%': {
-    //         transform: 'translateY(0%)',
-    //         opacity: '1',
-    //       },
-    //     },
-    //   },
-    // },
+    extend: {
+      animation: {
+        fadeIn: 'fadeIn 1s ease-in-out',
+        fadeInUp: 'fadeInUp 1s ease-in-out',
+        fadeInRight: 'fadeInRight 1s ease-in-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '1',
+          },
+        },
+        fadeInUp: {
+          '0%': {
+            transform: 'translateY(30%)',
+            opacity: '0',
+          },
+          '100%': {
+            transform: 'translateY(0%)',
+            opacity: '1',
+          },
+        },
+        fadeInRight: {
+          '0%': {
+            transform: 'translateX(2%)',
+            opacity: '0',
+          },
+          '100%': {
+            transform: 'translateX(0%)',
+            opacity: '1',
+          },
+        },
+      },
+    },
   },
   plugins: [],
 };
