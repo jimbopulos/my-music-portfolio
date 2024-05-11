@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={mont.className}>
-        <main className="flex flex-col h-full min-h-screen items-center">
+        <main className="flex flex-col h-full min-h-screen items-center bg-white">
           <Navbar />
           {children}
           <Footer />
