@@ -1,4 +1,5 @@
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
@@ -19,12 +20,16 @@ export function Footer() {
           />
         </Link>
 
-        <Link
+        <Link href="tel:631-374-0059" className="hover:text-zinc-500">
+          <FontAwesomeIcon width={25} height={25} icon={faPhone} />
+        </Link>
+
+        {/* <Link
           href="https://www.instagram.com/jimmi.mg/"
           className="hover:text-zinc-500"
         >
           <FontAwesomeIcon width={25} height={25} icon={faInstagram} />
-        </Link>
+        </Link> */}
       </section>
       <p className="text-sm italic animate-fadeInUp">
         Built by{' '}
