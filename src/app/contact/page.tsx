@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+// import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -30,6 +31,20 @@ export default function Contact() {
             </Link>
           </li>
           <li className="lg:mt-6 mt-4 animate-fadeInRight">
+            <Link href="tel:631-374-0059" className="hover:text-zinc-500">
+              <span className="flex flex-row items-center">
+                {' '}
+                <FontAwesomeIcon
+                  width={25}
+                  height={25}
+                  icon={faPhone}
+                  className="mr-2"
+                />{' '}
+                631-374-0059
+              </span>
+            </Link>
+          </li>
+          {/* <li className="lg:mt-6 mt-4 animate-fadeInRight">
             <Link
               href="https://www.instagram.com/jimmi.mg/"
               className="hover:text-zinc-500"
@@ -45,7 +60,7 @@ export default function Contact() {
                 @jimmi.mg
               </span>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </section>
 

@@ -20,9 +20,9 @@ export default function Lessons() {
       <section className="mt-10 animate-fadeInRight">
         <h2 className="lg:text-xl text-lg font-medium">Rates</h2>
         <div className="lg:text-lg mt-3">
-          <h3 className="mt-2">30 minutes - $30</h3>
-          <h3 className="mt-2">45 minutes - $40</h3>
-          <h3 className="mt-2">60 minutes - $50</h3>
+          <h3 className="mt-2">30 minutes - $60</h3>
+          <h3 className="mt-2">45 minutes - $75</h3>
+          <h3 className="mt-2">60 minutes - $85</h3>
         </div>
       </section>
       <section className="mt-10 animate-fadeInRight">
@@ -36,7 +36,7 @@ export default function Lessons() {
           </h3>
           <h3 className="lg:mt-2 mt-4">
             If you cancel within 24 hours of a scheduled lesson, you will be
-            charged $25 regardless of the lesson&#39;s duration...
+            charged $50 regardless of the lesson&#39;s duration...
           </h3>
           <h3 className="lg:mt-2 mt-4">
             I do understand that emergenices happen on short notice, and I&#39;m
