@@ -30,14 +30,24 @@ export default function Dashboard() {
         <div className="animate-fadeInRight">
           <p className="mt-8">Hi, and welcome!</p>
           <p className="mt-4">
-            I&#39;m a musician with a BS in Music & Recording, as well as
-            several years of experience in teaching, writing composition,
-            recording, and playing live.
+            James Galantino is an experienced music educator,
+            multi-instrumentalist, and composer with over 7 years of teaching.
+            He is a summa cum laude graduate of SUNY New Paltz (B.S. Music,
+            Recording/Audio Engineering). James studied directly with jazz
+            masters <strong>Larry Ham</strong> and <strong>Barry Harris</strong>
+            , whose advanced pedagogy he shares with students.
           </p>
           <p className="mt-4">
-            I&#39;ve worked as a piano instructor and director at School of Rock
-            in Port Jefferson, NY and as a recording artist and audio engineer
-            on multiple projects.
+            His professional credits include session work/assistant engineering
+            for artists like <strong>Mary J. Blige</strong>,{' '}
+            <strong>YG Marley</strong>, and <strong>A Boogie</strong> in NYC
+            studios, alongside performances in diverse bands across the NYC
+            region.
+          </p>
+          <p className="mt-4">
+            Demonstrating a unique versatility, James is also a published poet,
+            a naturalist, and composes cinematic music and beats inspired by his
+            life and passion for the outdoors.
           </p>
         </div>
         <p className="mt-8">Here is some of my work:</p>

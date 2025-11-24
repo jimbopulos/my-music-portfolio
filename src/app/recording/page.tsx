@@ -32,6 +32,7 @@ export default function Recording() {
         <div className="lg:text-lg mt-3">
           <h3 className="mt-2">Piano/Keys</h3>
           <h3 className="mt-2">Drums</h3>
+          <h3 className="mt-2">Guitar</h3>
         </div>
         <p className="mt-3">
           via in-person, at any studio in the 5 NYC boroughs or Long Island
