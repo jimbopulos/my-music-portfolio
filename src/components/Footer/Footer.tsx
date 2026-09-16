@@ -57,7 +57,7 @@ export function Footer() {
         >
           James Galantino
         </Link>{' '}
-        ©2024
+        ©2026
       </p>
     </footer>
   );
