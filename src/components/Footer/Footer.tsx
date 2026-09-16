@@ -1,5 +1,9 @@
 // import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import {
+  faLinkedin,
+  faSquareFacebook,
+} from '@fortawesome/free-brands-svg-icons';
+// import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
@@ -20,9 +24,23 @@ export function Footer() {
           />
         </Link>
 
-        <Link href="tel:631-374-0059" className="hover:text-zinc-500">
-          <FontAwesomeIcon width={25} height={25} icon={faPhone} />
+        <Link
+          href="https://www.linkedin.com/in/james-g-0aab6a16a/"
+          className="mr-6 hover:text-zinc-500"
+        >
+          <FontAwesomeIcon width={25} height={25} icon={faLinkedin} />
         </Link>
+
+        <Link
+          href="https://www.facebook.com/jimmi.mg68"
+          className="hover:text-zinc-500"
+        >
+          <FontAwesomeIcon width={25} height={25} icon={faSquareFacebook} />
+        </Link>
+
+        {/* <Link href="tel:631-374-0059" className="hover:text-zinc-500">
+          <FontAwesomeIcon width={25} height={25} icon={faPhone} />
+        </Link> */}
 
         {/* <Link
           href="https://www.instagram.com/jimmi.mg/"
@@ -39,7 +57,7 @@ export function Footer() {
         >
           James Galantino
         </Link>{' '}
-        ©2024
+        ©2026
       </p>
     </footer>
   );
